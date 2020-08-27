@@ -5,5 +5,5 @@ def find_element_index(array, value_to_find)
     puts array[count] == value_to_find
     count += 1
   end
-  array[count].index
+  array[count].index(value_to_find)
 end
